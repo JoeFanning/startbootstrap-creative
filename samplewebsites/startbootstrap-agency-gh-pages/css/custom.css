@@ -1,34 +1,27 @@
 /*custom.css*/
 /* Joe 20/11/2019 10:21 My Custom styles for this template */
-/*Floating button*/
-/*{padding:0;margin:0;}
 
-body{
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-	background-color:#CCC;
-}*/
-
-.float{
-	position:fixed;
-	width:65px;
-	height:65px;
-	top:80px;
-	left:40px;
-	background-color:#fff;
-	border-color:#fff;
-	border-radius:50px;
-	box-shadow: 2px 2px 3px #999;
-	font-size:48px;
-	z-index: 110;
+/* Floating button to return from this website to parent website */
+.floating-x-button {
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 10px;
+  background-color: red;
+  color: #fff; /* text color */
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: monospace;
+  border-radius:50%;
+  border: 1.5px solid #000;
+  z-index: 110;
 }
-
-.my-float{
-	background-color:#fff;
-	font-size:69px;
-	color:grey;
-	border-radius:50px;
+.floating-x-button:hover {
+  background-color:red;
+  opacity: 0.8;
+  border: solid 1.2px #404040;
 }
-.my-float:hover {
-  background-color: yellow;
+.floating-x-button:focus{
+  outline:0; /* Takes away blue border square when button is pressed(with Google) */
 }
