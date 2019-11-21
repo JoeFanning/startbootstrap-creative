@@ -2,6 +2,20 @@
 /* Joe created this file 18/11/2019 to overide some bootsrap css */
 
 .bg-primary {
-  background-color: blue !important;
+  background-color: red!important;
 }
- 
+.btn-primary {
+  background-color: red;
+  border: solid 1.2px #404040;
+}
+.btn-primary:hover {
+  background-color:red;
+  opacity: 0.8;
+  border: solid 1.2px #404040;
+}
+.btn-primary:active {
+  color: #fff;
+  background-color: white;
+  border-color: white;
+}
+
