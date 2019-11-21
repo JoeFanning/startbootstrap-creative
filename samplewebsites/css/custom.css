@@ -1,10 +1,10 @@
 /*custom.css*/
-/* Joe 20/11/2019 10:21 My Custom styles for this template */
+/* Joe 21/11/2019 11:28 My Custom styles for this template */
 
-/* Floating button to return from this website to parent website */
+/* Floating x button  on each sample website to return to parent website */
 .floating-x-button {
   position: fixed;
-  margin-top: 70px;
+  margin-top: 75px;
   margin-left: 10px;
   background-color: red;
   color: #fff; /* text color */
