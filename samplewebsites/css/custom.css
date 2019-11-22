@@ -4,7 +4,7 @@
 /* Floating x button  on each sample website to return to parent website */
 .floating-x-button {
   position: fixed;
-  margin-top: 75px;
+  margin-top: 125px;
   margin-left: 10px;
   background-color: red;
   color: #fff; /* text color */
@@ -13,7 +13,7 @@
   text-decoration: none;
   font-size: 36px;
   font-family: monospace;
-  border-radius:50%;
+  border-radius: 50%;
   border: 1.5px solid #000;
   z-index: 110;
 }
@@ -25,3 +25,14 @@
 .floating-x-button:focus{
   outline:0; /* Takes away blue border square when button is pressed(with Google) */
 }
+
+  /* large  and small phones, 750px and down) */
+@media only screen and (max-width: 700px){ 
+  .floating-x-button {
+    bottom: 100px;
+    right: 60px;
+  }
+}
+ 
+ 
+ 
